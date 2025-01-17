@@ -20,7 +20,17 @@ function isAge(age)
 }
 const add = (a, b) => a + b;
 
+function isEvenOrOdd(nb)
+{
+    if (nb % 2 == 0)
+        return(nb + " is even");
+    else
+        return(nb + " is odd");
+}
+
 console.log("My age is " + age);
 console.log(isAge(age));
 console.log("Addition of " + nb1 + " and " + nb2 + " = " + add(nb1, nb2));
+console.log("The number is Even or Odd ? ");
+console.log(isEvenOrOdd(10));
 document.body.innerHTML += "<h3>What is this ?</h3>";
