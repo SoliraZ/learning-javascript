@@ -1,27 +1,21 @@
-const name = "Hamza";
 let age = 21;
-var country = "France";
-nb1 = 15;
-nb2 = 2;
 let i = 0;
-console.log("Hello, My name is " + name + " and I am " + age + " years old. I live in " + country + ".");
-console.log(nb1 + nb2);
 
-if (age >= 18) 
+function isAge(age)
 {
-    console.log("You are over 18.");
-} else 
-{
-    console.log("You are under 18.");
+    if (age >= 18) 
+    {
+        return("You are over 18.");
+    } else 
+    {
+        return("You are under 18.");
+    }
 }
 
-while (i <= 5)
-{
-    console.log("count = " + i);
-    i++;
-}
+console.log("My age is " + age);
+console.log(isAge(age));
 
-for (;i <= 10; i++)
+for (i = 0;i <= 3; i++)
 {
     console.log("count = " + i);
 }
