@@ -28,9 +28,7 @@ function isEvenOrOdd(nb)
         return(nb + " is odd");
 }
 
-console.log("My age is " + age);
-console.log(isAge(age));
+console.log("My age is " + age + "\n" + isAge(age));
 console.log("Addition of " + nb1 + " and " + nb2 + " = " + add(nb1, nb2));
-console.log("The number is Even or Odd ? ");
-console.log(isEvenOrOdd(10));
+console.log("The number is Even or Odd ? \n" + isEvenOrOdd(10));
 document.body.innerHTML += "<h3>What is this ?</h3>";
